@@ -9,9 +9,6 @@ class Song
 
   @@all = []
 
-  def initialize
-    self.clas.all << self
-  end
 
   def self.all
     @@all
